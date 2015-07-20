@@ -1,0 +1,13 @@
+[package]
+name = "rust-iron-handlebars"
+version = "0.1.0"
+authors = ["Alexander Elias"]
+
+[dependencies]
+iron = "*"
+router = "*"
+staticfile = "*"
+mount = "*"
+handlebars-iron = "*"
+rustc-serialize = "*"
+urlencoded = "*"
