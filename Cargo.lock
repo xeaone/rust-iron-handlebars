@@ -7,6 +7,7 @@ dependencies = [
  "mount 0.0.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "router 0.0.10 (registry+https://github.com/rust-lang/crates.io-index)",
  "rustc-serialize 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sendmail 0.1.0 (git+https://github.com/AlexanderElias/rust-sendmail.git)",
  "staticfile 0.0.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "urlencoded 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -335,6 +336,11 @@ dependencies = [
 name = "rustc-serialize"
 version = "0.3.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "sendmail"
+version = "0.1.0"
+source = "git+https://github.com/AlexanderElias/rust-sendmail.git#a3dfc1161dc40e39d4ac970958ccf51f8077a332"
 
 [[package]]
 name = "sequence_trie"

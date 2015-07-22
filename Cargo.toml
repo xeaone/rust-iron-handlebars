@@ -11,3 +11,6 @@ mount = "*"
 handlebars-iron = "*"
 rustc-serialize = "*"
 urlencoded = "*"
+
+[dependencies.sendmail]
+git = "https://github.com/AlexanderElias/rust-sendmail.git"
